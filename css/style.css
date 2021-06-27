@@ -1,0 +1,77 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.box-1-header {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  position: relative;
+}
+
+.img-logo {
+  object-fit: cover;
+}
+
+.menu-navigation1 {
+  position: absolute;
+  left: 370px;
+  top: 15px;
+}
+
+li:nth-child(2) {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.ul-menu-navigation1 {
+  display: flex;
+  list-style-type: none;
+  font-size: 1.3rem;
+}
+
+.menu-navigation2 {
+  /* position: absolute;
+  right: 36px; */
+  display: flex;
+  justify-content: flex-end;
+  justify-self: flex-end;
+  justify-items: flex-end;
+}
+
+.menu-navigation2 i {
+  font-size: 2.2rem;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fa-instagram,
+.fa-facebook-f,
+.fa-twitter-square {
+  padding-left: 15px;
+}
+
+.fa-instagram {
+  color: #f09433;
+}
+
+.fa-facebook-f {
+  color: rgba(98, 43, 226, 0.76);
+}
+
+.fa-twitter-square {
+  color: blue;
+}
+
+.fa-line {
+  color: green;
+}
