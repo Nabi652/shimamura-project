@@ -23,14 +23,9 @@ body {
 
 .menu-navigation1 {
   position: absolute;
-  left: 460px;
+  left: 400px;
   top: 15px;
   cursor: pointer;
-}
-
-li:nth-child(2) {
-  margin-left: 15px;
-  margin-right: 15px;
 }
 
 li:nth-child(1):hover,
@@ -38,6 +33,11 @@ li:nth-child(2):hover,
 li:nth-child(3):hover {
   color: grey;
   transition: 0.3s;
+}
+
+.recherche-magasin {
+  margin-left: 35px;
+  margin-right: 35px;
 }
 
 .ul-menu-navigation1 {
@@ -105,47 +105,77 @@ h1 {
   display: flex;
   align-self: center;
   height: 500px;
+  width: 1000px;
   margin: auto;
+}
+
+/* --------------------- box regroupant le dépliant et search -------------------------- */
+
+.box-depliant-search {
+  display: flex;
+  align-self: center;
+  margin: auto;
+  margin-top: 30px;
+  width: 1000px;
 }
 
 /* --------------------------------- box image "dépliant" -------------------*/
 
-.box-depliant {
-  border: 1px solid red;
+.box-depliant,
+.box-search {
+  border: 1px solid rgba(128, 128, 128, 0.404);
   display: flex;
-  width: 40%;
+  width: 100%;
+  height: 200px;
 }
 
-.box-info1 {
+.box-depliant {
+  margin-right: 50px;
+}
+
+.box-info1,
+.box-info2 {
   padding-left: 20px;
-  padding-top: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
 }
 
-.suite-depliant a {
+.suite-depliant a,
+.suite-search a {
   text-decoration: none;
   color: black;
   font-weight: bolder;
   display: flex;
   justify-content: end;
 }
-.suite-depliant {
+.suite-depliant,
+.suite-search {
   list-style-type: none;
 }
 
-.suite-depliant a:hover {
+.suite-depliant a:hover,
+.suite-search a:hover {
   color: #800000;
   transition: 0.2s;
 }
 
-.h2-depliant {
+.h2-depliant,
+.h2-search {
   color: #800000;
   padding-bottom: 10px;
+  font-size: larger;
 }
 
 .h3-depliant {
   padding-bottom: 10px;
+  font-size: medium;
 }
 
 .p-depliant {
+  padding-bottom: 1px;
+}
+
+.p-search {
+  padding-top: 35px;
   padding-bottom: 10px;
 }

@@ -28,9 +28,9 @@
         <nav>
           <div class="menu-navigation1">
             <ul class="ul-menu-navigation1">
-              <li>Prospectus</li>
-              <li>Recherche de magasin</li>
-              <li>FAQ</li>
+              <li class="prospectus">Prospectus</li>
+              <li class="recherche-magasin">Recherche de magasin</li>
+              <li class="faq">FAQ</li>
             </ul>
           </div>
 
@@ -55,41 +55,46 @@
             class="img-principale"
           />
         </article>
-
-        <article class="box-depliant">
-          <img
-            src="./assets/depliant.PNG"
-            alt="image depliant shimamura"
-            class="img-depliant"
-          />
-          <div class="box-info1">
-            <h2 class="h2-depliant">Le dépliant de cette semaine</h2>
-            <h3 class="h3-depliant">23 juin (mercredi) - 27 juin (dimanche)</h3>
-            <p class="p-depliant">
-              Un festival passionnant à tous points de vue! <br />
-              Nous le livrerons à un prix spécial avec gratitude!
+        <div class="box-depliant-search">
+          <article class="box-depliant">
+            <img
+              src="./assets/depliant.PNG"
+              alt="image depliant shimamura"
+              class="img-depliant"
+            />
+            <div class="box-info1">
+              <h2 class="h2-depliant">Le dépliant de cette semaine</h2>
+              <h3 class="h3-depliant">
+                23 juin (mercredi) - 27 juin (dimanche)
+              </h3>
+              <p class="p-depliant">
+                Un festival passionnant à tous points de vue! <br />
+                Nous le livrerons à un prix spécial avec gratitude!
+              </p>
+              <ul>
+                <li class="suite-depliant"><a href="#">Suite</a></li>
+              </ul>
+            </div>
+          </article>
+          <article class="box-search">
+            <img
+              src="./assets/search.PNG"
+              alt="image localisation shimamura"
+              class="img-search"
+            />
+            <div class="box-info2">
+            <h2 class="h2-search">Recherche de magasin</h2>
+            <p class="p-search">
+              Trouvez le magasin que vous cherchez maintenant! <br />
+              Vous pouvez rechercher des magasins <br />
+              Shimamura dans tous le pays.
             </p>
             <ul>
-              <li class="suite-depliant"><a href="#">Suite</a></li>
+              <li class="suite-search"><a href="#">Rechercher</a></li>
             </ul>
-          </div>
-        </article>
-        <article class="box-search">
-          <img
-            src="./assets/search.PNG"
-            alt="image localisation shimamura"
-            class="img-search"
-          />
-          <h2>Recherche de magasin</h2>
-          <p>
-            Trouvez le magasin que vous cherchez maintenant! <br />
-            Vous pouvez rechercher des magasins <br />
-            Shimamura dans tous le pays.
-          </p>
-          <ul>
-            <li><a href="#">Rechercher</a></li>
-          </ul>
-        </article>
+          </article>
+        </div>
+        </div>
       </div>
     </main>
   </body>
