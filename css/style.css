@@ -23,8 +23,9 @@ body {
 
 .menu-navigation1 {
   position: absolute;
-  left: 370px;
+  left: 460px;
   top: 15px;
+  cursor: pointer;
 }
 
 li:nth-child(2) {
@@ -32,26 +33,28 @@ li:nth-child(2) {
   margin-right: 15px;
 }
 
+li:nth-child(1):hover,
+li:nth-child(2):hover,
+li:nth-child(3):hover {
+  color: grey;
+  transition: 0.3s;
+}
+
 .ul-menu-navigation1 {
   display: flex;
   list-style-type: none;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .menu-navigation2 {
-  /* position: absolute;
-  right: 36px; */
   display: flex;
-  justify-content: flex-end;
-  justify-self: flex-end;
-  justify-items: flex-end;
+  position: absolute;
+  right: 100px;
 }
 
 .menu-navigation2 i {
   font-size: 2.2rem;
   margin-top: 10px;
-  display: flex;
-  justify-content: flex-end;
 }
 
 .fa-instagram,
@@ -74,4 +77,75 @@ li:nth-child(2) {
 
 .fa-line {
   color: green;
+}
+
+.fa-line:hover,
+.fa-instagram:hover,
+.fa-facebook-f:hover,
+.fa-twitter-square:hover {
+  transform: translateY(0.2px);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/* ----------------------- titre H1 ------------------------------- */
+
+h1 {
+  font-size: x-large;
+  text-align: center;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-bottom: 90px;
+  margin-top: 90px;
+}
+
+/* ----------------------- image principale -----------------------------*/
+
+.img-principale {
+  display: flex;
+  align-self: center;
+  height: 500px;
+  margin: auto;
+}
+
+/* --------------------------------- box image "dépliant" -------------------*/
+
+.box-depliant {
+  border: 1px solid red;
+  display: flex;
+  width: 40%;
+}
+
+.box-info1 {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.suite-depliant a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  display: flex;
+  justify-content: end;
+}
+.suite-depliant {
+  list-style-type: none;
+}
+
+.suite-depliant a:hover {
+  color: #800000;
+  transition: 0.2s;
+}
+
+.h2-depliant {
+  color: #800000;
+  padding-bottom: 10px;
+}
+
+.h3-depliant {
+  padding-bottom: 10px;
+}
+
+.p-depliant {
+  padding-bottom: 10px;
 }
