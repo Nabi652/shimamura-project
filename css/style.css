@@ -8,6 +8,7 @@
 
 body {
   margin: 0;
+  height: 1000vh;
 }
 
 .box-1-header {
@@ -176,6 +177,31 @@ h1 {
 }
 
 .p-search {
-  padding-top: 35px;
+  padding-top: 20px;
   padding-bottom: 10px;
+}
+
+/* ---------------------- image de balise section ----------------------*/
+
+.image2,
+.image3 {
+  width: 100%;
+}
+.image2-2,
+.image3-3 {
+  margin-top: 5px;
+  width: 475px;
+  height: 170px;
+}
+
+.box-image-lapin {
+  display: flex;
+  align-self: center;
+  margin: auto;
+  margin-top: 30px;
+  width: 1000px;
+}
+
+.image2 {
+  margin-right: 50px;
 }
