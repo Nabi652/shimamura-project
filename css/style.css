@@ -211,3 +211,30 @@ h1 {
   margin: auto;
   justify-content: center;
 }
+
+/* -------------------------------------- section partie 3 -------------------*/
+
+.img-lapin-jumelles {
+  width: 67%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* ------------------------------- ensemble des 4 photos -------------------*/
+
+.ensemble-photos4 {
+  display: flex;
+  width: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.img1,
+.img2,
+.img3,
+.img4 {
+  height: 300px;
+  width: 253px;
+}
