@@ -238,3 +238,35 @@ h1 {
   height: 300px;
   width: 253px;
 }
+
+/* -------------------------- image jumelles rouges -----------------------------*/
+
+.box-jumelles {
+  display: flex;
+  width: 40%;
+  margin: auto;
+  justify-content: center;
+}
+
+.img-jumelles {
+  cursor: pointer;
+  transform: 0.3s;
+}
+
+.img-jumelles:hover {
+  margin: 1px;
+}
+
+/* --------------------------------- image wear -----------------------------*/
+
+.box-wear {
+  display: flex;
+  width: 40%;
+  margin: auto;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.img-wear {
+  height: 200px;
+}
