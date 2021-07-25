@@ -303,7 +303,7 @@ h1 {
 .box-info3,
 .box-info4 {
   background-color: white;
-  margin: auto;
+  margin: auto 10px;
   height: 400px;
   margin-top: 25px;
 }
