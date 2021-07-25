@@ -282,7 +282,8 @@ h1 {
 
 /* ------------------ section liste de photos ------------------------*/
 
-.ensemble-photo1 {
+.ensemble-photo1,
+.ensemble-photo2 {
   display: flex;
   width: 80%;
   justify-content: center;
@@ -292,16 +293,25 @@ h1 {
 .img-info1,
 .img-info2,
 .img-info3,
-.img-info4 {
+.img-info4,
+.img-info5,
+.img-info6,
+.img-info7,
+.img-info8 {
   object-fit: cover;
   width: 100%;
   height: 300px;
+  cursor: pointer;
 }
 
 .box-info1-1,
 .box-info2-2,
 .box-info3,
-.box-info4 {
+.box-info4,
+.box-info5,
+.box-info6,
+.box-info7,
+.box-info8 {
   background-color: white;
   margin: auto 10px;
   height: 400px;
@@ -315,13 +325,26 @@ h1 {
 .txt-info1,
 .txt-info2,
 .txt-info3,
-.txt-info4 {
+.txt-info4,
+.titre-info5,
+.titre-info6,
+.titre-info7,
+.titre-info8,
+.txt-info5,
+.txt-info6,
+.txt-info7,
+.txt-info8 {
   padding-left: 20px;
+  cursor: default;
 }
 
 .titre-info1,
 .titre-info2,
 .titre-info3,
-.titre-info4 {
+.titre-info4,
+.titre-info5,
+.titre-info6,
+.titre-info7,
+.titre-info8 {
   padding-bottom: 10px;
 }
