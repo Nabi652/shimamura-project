@@ -8,14 +8,13 @@
 
 body {
   margin: 0;
-  /* height: 1000vh; */
 }
 
 .box-1-header {
   display: flex;
   margin: 0 auto;
   width: 80%;
-  position: relative;
+  justify-content: space-between;
 }
 
 .img-logo {
@@ -23,9 +22,6 @@ body {
 }
 
 .menu-navigation1 {
-  position: absolute;
-  left: 400px;
-  top: 15px;
   cursor: pointer;
 }
 
@@ -37,20 +33,21 @@ li:nth-child(3):hover {
 }
 
 .recherche-magasin {
-  margin-left: 35px;
-  margin-right: 35px;
+  /* margin-left: 35px;
+  margin-right: 35px; */
+}
+
+.menu-navigation1 ul {
+  display: flex;
+  justify-content: space-between;
 }
 
 .ul-menu-navigation1 {
   display: flex;
   list-style-type: none;
   font-size: 1.1rem;
-}
-
-.menu-navigation2 {
-  display: flex;
-  position: absolute;
-  right: 100px;
+  /* margin
+  margin-top: 15px; */
 }
 
 .menu-navigation2 i {
@@ -58,10 +55,15 @@ li:nth-child(3):hover {
   margin-top: 10px;
 }
 
+.menu-navigation2 {
+  display: flex;
+  justify-content: space-between;
+}
+
 .fa-instagram,
 .fa-facebook-f,
 .fa-twitter-square {
-  padding-left: 15px;
+  /* padding-left: 15px; */
 }
 
 .fa-instagram {
@@ -471,3 +473,16 @@ footer {
   justify-content: space-evenly;
   margin-top: 25px;
 }
+
+/* ------------------ media queries ------------*/
+
+/* @media only screen and (min-width: 400px) and (max-width: 600px) {
+}
+
+.menu-navigation1 {
+  position: initial;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+
+} */
