@@ -10,11 +10,13 @@ body {
   margin: 0;
 }
 
+/* -------------- header -------------*/
+
 .box-1-header {
   display: flex;
   margin: 0 auto;
   width: 80%;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .img-logo {
@@ -23,6 +25,7 @@ body {
 
 .menu-navigation1 {
   cursor: pointer;
+  margin-top: 20px;
 }
 
 li:nth-child(1):hover,
@@ -33,37 +36,26 @@ li:nth-child(3):hover {
 }
 
 .recherche-magasin {
-  /* margin-left: 35px;
-  margin-right: 35px; */
-}
-
-.menu-navigation1 ul {
-  display: flex;
-  justify-content: space-between;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .ul-menu-navigation1 {
   display: flex;
   list-style-type: none;
   font-size: 1.1rem;
-  /* margin
-  margin-top: 15px; */
 }
+/* ------------------------ icones reseaux sociaux du header -------------------*/
 
 .menu-navigation2 i {
   font-size: 2.2rem;
   margin-top: 10px;
 }
 
-.menu-navigation2 {
-  display: flex;
-  justify-content: space-between;
-}
-
 .fa-instagram,
 .fa-facebook-f,
 .fa-twitter-square {
-  /* padding-left: 15px; */
+  padding-left: 15px;
 }
 
 .fa-instagram {
@@ -476,13 +468,74 @@ footer {
 
 /* ------------------ media queries ------------*/
 
-/* @media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (min-width: 399px) and (max-width: 600px) {
+  /* ----------------- box header ------------*/
+  .box-1-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+  }
+
+  /* ------------- centrer logo shimamura -------------*/
+
+  .logo {
+    justify-content: center;
+    display: flex;
+  }
+
+  /* ----------------- centre menu nav et icones reseaux sociaux ----*/
+  .menu-navigation1,
+  .menu-navigation2 {
+    justify-content: center;
+    display: flex;
+  }
+
+  .menu-navigation2 {
+    margin-top: 20px;
+  }
+
+  /* --------------- titre h1 margin-top ----------*/
+
+  h1 {
+    margin-top: 30px;
+  }
+
+  /* --------------- IMAGE PRINCIPAL REDIMENSION ---------*/
+
+  .img-principale {
+    width: 100%;
+  }
+
+  /* ---------------------- carré des 4 photos -----*/
+
+  .quatre-photos {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+    /* margin: auto 0; */
+  }
+
+  .box-depliant-search,
+  .box-image-lapin {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image2,
+  .image3,
+  .img-depliant,
+  .img-search {
+    width: 200px;
+    margin: 0 auto;
+  }
 }
 
-.menu-navigation1 {
+/* .menu-navigation1 {
   position: initial;
   display: flex;
   flex-direction: column;
   margin-top: 80px;
 
-} */
+}  */
