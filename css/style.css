@@ -523,12 +523,37 @@ footer {
     flex-direction: column;
   }
 
-  .image2,
-  .image3,
+  .box-depliant,
+  .box-search {
+    width: 350px;
+    flex-direction: column;
+    margin: auto;
+    height: auto;
+  }
+
+  .box-depliant {
+    margin-bottom: 50px;
+  }
+
   .img-depliant,
   .img-search {
-    width: 200px;
-    margin: 0 auto;
+    width: 100%;
+    object-fit: cover;
+    padding: 4px;
+  }
+
+  /* .box-image-lapin {
+    width: 350px;
+    margin: auto;
+  } */
+
+  .image2 {
+    width: 350px;
+    margin: auto;
+  }
+  .image2-2,
+  .image3-3 {
+    width: 100%;
   }
 }
 
