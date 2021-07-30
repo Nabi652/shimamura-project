@@ -513,8 +513,6 @@ footer {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-
-    /* margin: auto 0; */
   }
 
   .box-depliant-search,
@@ -542,11 +540,6 @@ footer {
     padding: 4px;
   }
 
-  /* .box-image-lapin {
-    width: 350px;
-    margin: auto;
-  } */
-
   .image2 {
     width: 350px;
     margin: auto;
@@ -555,12 +548,57 @@ footer {
   .image3-3 {
     width: 100%;
   }
+
+  /* ------------------- photo lapin qui porte des jumelles -------------------*/
+
+  .img-lapin-jumelles {
+    /* width: 100%; */
+    margin: auto;
+  }
+
+  .ensemble-photos4 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .img-1,
+  .img-2,
+  .img-3,
+  .img-4 {
+    width: 250px;
+    margin: auto;
+  }
+
+  .box-wear,
+  .img-wear {
+    width: 100%;
+  }
+
+  /* ------------------ ensemble de photos ------------*/
+
+  .ensemble-photo1,
+  .ensemble-photo2 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .box-infos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2450px;
+  }
+
+  .ligne-1,
+  .ligne-2,
+  .ligne-3,
+  .ligne-4,
+  .ligne-5 {
+    margin: 0;
+    border-top: 1px dashed black;
+    width: 100%;
+    padding-bottom: 15px;
+  }
 }
-
-/* .menu-navigation1 {
-  position: initial;
-  display: flex;
-  flex-direction: column;
-  margin-top: 80px;
-
-}  */
