@@ -601,7 +601,30 @@ footer {
     width: 100%;
     padding-bottom: 15px;
   }
+
+  .menu-navigation3,
+  .ensemble-7-photo {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .box-images-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {
+    height: auto;
+  }
+
+  .footer-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 10px;
+  }
 }
+/* --------------------- mousemove ----------------------*/
 
 .mousemove {
   height: 20px;
